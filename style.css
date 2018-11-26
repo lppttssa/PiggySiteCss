@@ -1,0 +1,211 @@
+body { 
+	background: pink;
+	  color:blue;
+}
+	p {
+		text-align: center;
+}
+.text{
+	 align:center;
+	 font-size: 40;
+}
+.text1 {
+	font-size: 20;
+}
+ 
+img {
+	width: 440px;
+	height: 500px;
+} 
+.dancing {
+	position: absolute;
+	top: 300px;
+}
+
+.center {
+	position: absolute;
+	left: 580px;
+	top: 300px;
+}
+.right {
+	left:1143px;
+	position: absolute;
+} 
+.rightt {
+	position: absolute;
+	left:1143px;
+	top: 500px;
+}
+
+.photo {
+	position: absolute;
+	left:1143px;
+	top: 0px;
+}
+
+.righttt {
+	left:1143px;
+	top: 1000px;
+	position: absolute;
+} 
+.dancing2 {
+	position: absolute;
+	top: 280px;
+}
+.right2 {
+	top: 0px;
+	left:1144px;
+	position: absolute;
+}
+.rightt2 {
+	position: absolute;
+	left:1144px;
+	top: 500px;
+}
+.right3 {
+	position: absolute;
+	left: 1144px;
+	top: 900px;
+}
+.me {
+	
+position:absolute;
+left: 445px;
+top: 300px;	
+}
+.copy {
+	position: absolute;
+	left: 1400px;
+	top: 1500px;
+}
+.name {
+	position:absolute;
+	left: 900px;
+	top: 255px;
+}
+.spisok {
+	font-size: 20px;
+	position:absolute;
+	left: 859px;
+	top: 310px;
+}
+.priv {
+	font-size: 25px;
+	position:absolute;
+	left: 893px;
+	top: 500px;
+
+}
+.nepriv {
+	font-size: 15px;
+	position:absolute;
+	left: 893px;
+	top: 650px;
+}
+.laststr {
+		font-size: 20px;
+		position:absolute;
+		top: 780px;
+		left: 450px;
+}
+	
+#menu {
+        padding: 0;
+        margin: 0;
+        font-family:  Verdana;
+        }
+#menu li {
+        list-style: none;
+        float: left;
+        height: px;
+        padding: 0;
+        margin: 0;
+        width: 0px;
+        text-align: center;
+        background:  pink;
+        position: relative;
+        padding-top: 12px;
+        }
+#menu li ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 42px;
+        }
+#menu li ul li{
+        float: none;
+        height: 30px;
+        margin: 0;
+        width: 150px;
+        text-align: center;
+        background: pink;
+        }
+#menu li a{
+        display: block;
+        width: 150px;
+        height: 30px;
+        color:    blue;
+        text-decoration: none;
+        }
+  #menu li:hover ul{
+          display: block;
+          }
+  #menu li:hover{
+          background: pink;
+          }
+  #menu li ul li ul{
+    left:150px;
+    top: 0;
+  }
+  #menu li ul li ul li{display: none;}
+  #menu li ul li:hover ul li{display: block;} 
+  
+@media print {
+	 
+	#menu {
+		display: none
+	}
+	img {
+		display: none;
+	}
+	
+	.name {
+	position:absolute;
+	left: 700px;
+	top: 255px;
+	}
+	.spisok {
+	font-size: 20px;
+	position:absolute;
+	left: 650px;
+	top: 310px;
+	}
+   
+
+   .priv {
+	font-size: 20px;
+	position:absolute;
+	left: 650px;
+	top: 500px;
+
+	}
+
+   .nepriv {
+	font-size: 15px;
+	position:absolute;
+	left: 650px;
+	top: 650px;
+	}
+
+   .laststr {
+		font-size: 20px;
+		position:absolute;
+		top: 800px;
+		left: 450px;
+	}
+}
+	
